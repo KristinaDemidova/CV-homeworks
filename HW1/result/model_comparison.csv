@@ -1,0 +1,3 @@
+Model,Test Accuracy,Test Macro-F1,Best Val Accuracy,Training Epochs,Parameters (trainable)
+CNN,0.7963,0.7932,0.7828,15,374823
+ViT-Tiny (Linear Probe),0.9421,0.9411,0.9560,8,1351
