@@ -32,11 +32,11 @@
 - Замерены время шага и использование памяти во время обучения.
 - Результаты профилировки:
 CNN
-![cnn_trace.png](/CV-homeworks/HW1/result/cnn_trace.png)
+![cnn_trace.png](/HW1/result/cnn_trace.png)
 
 Vit-Tiny
 
-![vit_trace.png](/CV-homeworks/HW1/result/vit_trace.png)
+![vit_trace.png](/HW1/result/vit_trace.png)
 
 CNN потребляет больше ресурсов GPU
 
@@ -46,16 +46,16 @@ CNN потребляет больше ресурсов GPU
 
 - Метрики качества (accuracy и macro-F1):
 
-![model_comparison.csv](/CV-homeworks/HW1/result/model_comparison.csv)
+![model_comparison.csv](/HW1/result/model_comparison.csv)
 
 CNN
-![img_2.png](/CV-homeworks/HW1/result/cnn_confusion_matrix.png)
+![img_2.png](/HW1/result/cnn_confusion_matrix.png)
 
 Vit
-![img_1.png](/CV-homeworks/HW1/result/vit_confusion_matrix.png)
+![img_1.png](/HW1/result/vit_confusion_matrix.png)
 
 Accuracy
-![img.png](/CV-homeworks/HW1/result/accuracy.jpg)
+![img.png](/HW1/result/accuracy.jpg)
 
 - Построено и проанализировано confusion matrix для обеих моделей.
 - Ключевые выводы:
