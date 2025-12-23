@@ -87,7 +87,7 @@
 *(Сюда можно добавить скриншоты: Оригинал | Canny Map | Результат)*
 
 | Original (Real) |  Synthetic Output |
-|:---:|:---:|:---:|
+|:---:|:---:|
 | <img src="./data/flowers/4666648087_b10f376f19.jpg" width="200"> | <img src="./data/syntetic_data/4666648087_b10f376f19_synth_0.png" width="200"> |
 | <img src="./data/flowers/5133243796_44de429de5_m.jpg" width="200"> | <img src="./data/syntetic_data/5133243796_44de429de5_m_synth_1.png" width="200"> |
 
