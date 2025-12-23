@@ -85,8 +85,6 @@ Loss bbox
 ![analysis_0.png](./runs/analysis_0.png)
 
 
-![analysis_1.png](./runs/analysis_1.png)
-
 **Ошибки:**
 1.  **Localization Error:** Модель верно определяет объект (например, `car`), но bounding box смещен или покрывает объект не полностью (низкий IoU).
 ![analysis_3.png](./runs/analysis_3.png)
