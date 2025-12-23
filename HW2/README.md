@@ -64,9 +64,11 @@ python analyze.py
 
 #### Графики потерь (Loss Curves)
 Loss ce
+
 ![loss_ce.png](./runs/loss_ce.png)
 
 Loss bbox
+
 ![loss_bbox.png](./runs/loss_bbox.png)
 
 
@@ -80,16 +82,16 @@ Loss bbox
 ### 🔍 Error Analysis (Анализ ошибок)
 
 Пример работы модели на валидационной выборке(красное - результат модели, зеленое - ожидаемый результат):
-![analysis_0.png](/runs/analysis_0.png)
+![analysis_0.png](./runs/analysis_0.png)
 
 
-![analysis_1.png](/runs/analysis_1.png)
+![analysis_1.png](./runs/analysis_1.png)
 
 **Ошибки:**
 1.  **Localization Error:** Модель верно определяет объект (например, `car`), но bounding box смещен или покрывает объект не полностью (низкий IoU).
-![analysis_3.png](/runs/analysis_3.png)
+![analysis_3.png](./runs/analysis_3.png)
 
-![analysis_4.png](/runs/analysis_4.png)
+![analysis_4.png](./runs/analysis_4.png)
 
 2.  **Small Objects:** DETR испытывает трудности с детекцией мелких объектов на заднем плане (например, удаленные `truck`).
-![analysis_1.png](/runs/analysis_1.png)
+![analysis_1.png](./runs/analysis_1.png)
